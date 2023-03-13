@@ -1,0 +1,29 @@
+project:
+  type: book
+
+
+book:
+  title: "Statistics with Python"
+  subtitle: "A Companion for Statistical Analysis with Python"
+  author: "Enayetur Raheem"
+  date:  "2023/03/12"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - part: part1.qmd
+      chapters:
+        - python.qmd
+        - datastructure.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
